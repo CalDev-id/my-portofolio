@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>CV Heical Chandra</title>
+
+    <style>
+      a {
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      * {
+        padding: 0;
+        color: white;
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+      }
+      .nav {
+        background-color: #1f2235;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .logo {
+        float: left;
+        color: white;
+        font-size: 36px;
+        margin-top: 10px;
+        background-color: #1f2235;
+        font-weight: bold;
+        margin-left: 100px;
+      }
+      .ulnav {
+        float: right;
+        background-color: #1f2235;
+        margin-right: 100px;
+      }
+      .listnav {
+        width: fit-content;
+        float: right;
+        margin-right: 20px;
+        list-style: none;
+        color: white;
+        margin-top: 25px;
+        background-color: #1f2235;
+      }
+      .header {
+        height: fit-content;
+        background-color: #23263a;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+      }
+      .nama {
+        font-weight: bold;
+        font-size: 40px;
+        margin-bottom: 10px;
+      }
+      .desc {
+        font-size: 20px;
+      }
+      .header-kiri {
+        margin-top: 100px;
+        margin-bottom: 30px;
+      }
+      .contact {
+        display: flex;
+        margin-bottom: 30px;
+      }
+      .contact-item {
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+        border-color: #ff4a57;
+        border-style: solid;
+        margin-right: 10px;
+        text-align: center;
+        border-width: 2px;
+        font-size: 25px;
+      }
+      .tombol {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+      }
+      .portofolio {
+        margin: 10px;
+        border-radius: 100px;
+        height: 50px;
+        width: 170px;
+        border-color: #ff4a57;
+        border-style: solid;
+        margin-right: 20px;
+        text-align: center;
+        border-width: 2px;
+        margin-left: 0;
+      }
+      .play {
+        margin: 10px;
+        border-radius: 100px;
+        height: 50px;
+        width: 100px;
+        background-color: #ff4a57;
+        border-color: #ff4a57;
+        border-style: solid;
+        margin-right: 20px;
+        text-align: center;
+        border-width: 2px;
+        font-size: 33px;
+      }
+      .container-cv1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 100px;
+        background-color: #1f2235;
+      }
+      .container-cv2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #1f2235;
+      }
+      .cv {
+        width: 280px;
+        height: 280px;
+        background-color: #23263a;
+        margin: 20px;
+      }
+      .isi-cv {
+        background-color: #1f2235;
+        height: fit-content;
+        
+      }
+      .about-me {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: #23263a;
+        height: fit-content;
+      }
+      .profile-kiri {
+        border-radius: 10px;
+        border: solid;
+        background-color: #1f2235;
+        width: 700px;
+        height: 550px;
+        border-color: #1f2235;
+        
+      }
+      .profile-kanan {
+        border-radius: 10px;
+        border: solid;
+        background-color: #1f2235;
+        border-color: #1f2235;
+        width: 400px;
+        height: 550px;
+        margin-bottom: 200px;
+      }
+      input, textarea {
+        width:300px;
+        margin-top:10px;
+        padding:20px;
+        font-size:18px;
+        border:1px solid #dee7ec;
+      }
+      .contact-me {
+        width:auto;
+        display: flex;
+        justify-content: center;
+        background-color: #1f2235;
+      }
+      .footer {
+        background-color: #23263a;
+        color: #fff;
+        height: 120px;
+        padding: 40px;
+      }
+  
+      .footer-logo {
+        float: left;
+        font-size: 32px;
+      }
+      
+      .footer-list {
+        float: right;
+      }
+      
+      .footer-list li {
+        padding-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="logo">
+        Ical <span style="color: red">.</span>
+      </div>
+      <ul class="ulnav">
+        <li class="listnav" style="margin-right: 0px">
+          <a href="cv.png" download>Download CV</a>
+        </li>
+        <li class="listnav"><a href="#">Contact</a></li>
+        <li class="listnav"><a href="#about-me">About me</a></li>
+        <li class="listnav"><a href="#">Home</a></li>
+      </ul>
+    </div>
+    <div style="color: #1f2235; height: 100px; background-color: #23263a;">.</div>
+    <div class="header">
+      <div class="header-kiri">
+        <div class="contact">
+          <div class="contact-item">
+            <i class="bx bxl-linkedin"></i>
+          </div>
+          <div class="contact-item">
+            <i class="bx bxl-facebook"></i>
+          </div>
+          <div class="contact-item">
+            <i class="bx bxl-twitter"></i>
+          </div>
+          <div class="contact-item">
+            <i class="bx bxl-instagram"></i>
+          </div>
+          <div class="contact-item">
+            <i class="bx bxl-pinterest"></i>
+          </div>
+        </div>
+        <div class="nama">
+          I am Heical Chandra<span style="color: red">.</span>
+        </div>
+        <div class="desc">i'm Heical, Professional web developer with</div>
+        <div class="desc">long time experience in this field</div>
+
+        <div class="tombol">
+          <div class="portofolio"><a href="#">My portofolio</a></div>
+          <div class="play">
+            <a href="#"><i class="bx bx-play"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="header-kanan">
+        <img style="width: 600px" src="fotosaya.png" alt="Heical" />
+      </div>
+    </div>
+
+<div style="color: #1f2235; height: 50px; background-color: #1f2235;">.</div>
+
+    <div class="isi-cv">
+      <center>
+        <div>
+        <div style="font-size: 23px; color: #ff4a57; background-color: #1f2235">
+          SKILLS
+        </div>
+        <div
+          class="my-services"
+          style="font-weight: bold; font-size: 25px; background-color: #1f2235"
+        >
+          My Skills<span style="color: red">.</span>
+        </div>
+        <div
+          class="isian"
+          style="
+            font-size: 15px;
+            background-color: #1f2235;
+          "
+        >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
+          voluptatibus, fugit enim officia dolore eos exercitationem facilis
+        </div>
+        <div class="isian"
+          style="
+            font-size: 15px;
+            background-color: #1f2235;">
+          nulla consequuntur architecto voluptatem. Maxime ipsa quae illo veniam
+          tempora quis id perferendis?
+        </div>
+      </center>
+
+      <div class="container-cv1">
+        <div class="cv">
+          <i style="font-size: 70px; color: #ff4a57; margin-left: 10px;" class='bx bxl-html5'></i></BR>
+          <p style="margin-left: 20px; margin-top: 10px; font-weight: bold;">HTML Expert</p> <br>
+        <div style="margin-left: 20px; font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure recusandae temporibus.</div></div>
+        <div class="cv">
+          <i style="font-size: 70px; color: #ff4a57; margin-left: 10px;" class='bx bxl-css3' ></i> </br>
+          <p style="margin-left: 20px; margin-top: 10px; font-weight: bold;">CSS Expert</p>
+        <br>
+          <div style="margin-left: 20px; font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure recusandae temporibus.</div></div> 
+        <div class="cv"><i style="font-size: 70px; color: #ff4a57; margin-left: 10px;" class='bx bxl-javascript' ></i> </br>
+          <p style="margin-left: 20px; margin-top: 10px; font-weight: bold;">JScript Expert</p>
+        <br>
+          <div style="font-size: 14px; margin-left: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure recusandae temporibus.</div></div>
+      </div>
+      <div class="container-cv2">
+        <div class="cv">
+          <i style="font-size: 70px; color: #ff4a57; margin-left: 10px;" class='bx bxs-bar-chart-alt-2'></i>
+          <p style="margin-left: 20px; margin-top: 10px; font-weight: bold;">Pengalaman saya</p>
+        <br>
+          <div style="font-size: 14px; margin-left: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure recusandae temporibus.</div></div>
+        <div class="cv">
+          <i style="font-size: 70px; color: #ff4a57; margin-left: 10px;" class='bx bxs-message-dots'></i>
+          <p style="margin-left: 20px; margin-top: 10px; font-weight: bold;">Pengalaman saya</p>
+        <br>
+          <div style="font-size: 14px; margin-left: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure recusandae temporibus.</div></div>
+        <div class="cv" style="margin-bottom: 50px;">
+          <i style="font-size: 70px; color: #ff4a57; margin-left: 10px;" class='bx bxl-visual-studio'></i>
+          <p style="margin-left: 20px; margin-top: 10px; font-weight: bold;">Pengalaman saya</p>
+        <br>
+          <div style="font-size: 14px; margin-left: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure recusandae temporibus.</div></div>
+      </div>
+    </div>
+
+      <div style="background-color: #23263a; color: #1f2235; height: 100px;">.</div>
+
+      <div class="about-me" id="about-me">
+
+      <div class="profile-kiri">
+        <video width="700" height="400" controls>
+          <source src="video.mp4" type="video/mp4">
+          <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+        </video>
+        <h3 style="margin-left: 10px; background-color: #1f2235; margin-top: 10px; font-size: 20px;">About Me<span style="color: red">.</span></h3>
+        <p style="margin-left: 10px; background-color: #1f2235; margin-top: 10px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo, accusantium voluptatibus architecto hic a quis ab minima! Minima, fugiat. Voluptatem praesentium tempore exercitationem repudiandae nostrum, ipsum rem iste inventore earum.</p>
+      
+      </div>
+      <div class="profile-kanan">
+        
+        <center style="background-color: #1f2235;">
+          <div style="margin-top: 30px; color: #1f2235; background-color: #1f2235;">.</div>
+          <p style="background-color: #1f2235; font-size: 20px;">Heical Chandra<span style="color: red">.</span></p><br>
+          <img style="width: 150px; height: 150px; border-radius: 200px; background-color: #1f2235; border-color: #1f2235; margin-top: 10px;" src="fotojas.jpg" alt="Heical"><br>
+          <p style="background-color: #1f2235; margin-top: 20px;">There are many variation of</p>
+          <p style="background-color: #1f2235">passages of lorem ipsum available.</p>
+          <p style="background-color: #1f2235">but the majority have</p>
+          <div style="display: flex; flex-wrap: wrap;background-color: #1f2235; justify-content: center; font-size: 26px; margin-top: 20px;">
+          <i class="bx bxl-linkedin"></i>
+          <i class="bx bxl-facebook"></i>
+          <i class="bx bxl-twitter"></i>
+          <i class="bx bxl-pinterest"></i>
+          </div>
+          
+        </center>
+      </div>
+    </div>
+    <div style="color: #1f2235; height: 100px; background-color: #1f2235;">.</div>
+    <div class="contact-me">
+      <form>
+        
+        <fieldset style="width: 500px; margin-bottom: 100px;">
+          <legend>Contact Me<span style="color: red">.</span></legend>
+          <center>
+          <tr><td width="40%">Email</td><td> :   <input type="Email" name="email"></td></tr> <br>
+          <div style="display: flex; flex-wrap: wrap;">
+          <tr><td width="40%" height="100px" > <p style="margin-left: 50px; margin-top: 50px;">Pesan :   </p> </td><td><textarea></textarea></td></tr>
+        </div> <br>
+        </center>
+          <button type="submit" style="color:black; padding: 5px; margin: 20px; margin-left: 50px;">Kirim</button>
+        
+        </fieldset>
+      
+      </form>
+    </div>
+    
+
+    <div class="footer">
+      <div class="footer-logo">Ical <span style="color: #ff4a57;">.</span></div>
+      <div class="footer-list">
+        <ul>
+          <li>Tentang</li>
+          <li>Karier</li>
+          <li>Hubungi Kami</li>
+        </ul>
+      </div>
+    </div>
+
+  </body>
+</html>
